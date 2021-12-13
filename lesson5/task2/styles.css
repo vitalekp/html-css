@@ -1,21 +1,12 @@
-[target='_blank'] {
-    color: green;
+[data-description='anchors'] {
+    background-color: grey;
 }
-ol, ul {
-    background-color: yellow;
-}
-header, footer {
-    border: 3px dashed blue;
-}
-h1, h2, h3, h4 {
-    margin-left: 20px;
-}
-article.new {
+[data-description] {
     font-size: 24px;
 }
-li.new {
-    background-color: red;
+a[href][target] {
+    color: green;
 }
-.new.posted-today {
-    background-color: pink;
+input[type='text'] {
+    background-color: orange;
 }

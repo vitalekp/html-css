@@ -1,12 +1,12 @@
-* {
-    background-color: green;
+.super-important.highlighted {
+    background-color: red;
 }
-li {
+.highlighted, .company-data {
+    color: yellow;
+}
+li.user-data {
     font-size: 24px;
 }
-.page-header {
-    background-color: orange;
-}
-#best {
-    border: 2px solid red;
+span.user-data {
+    font-size: 10px;
 }
