@@ -1,24 +1,18 @@
 * {
    box-sizing: content-box;
 }
-body {
-   margin-top: 50px;
-   margin-left: 50px;
-}
 .rectangle {
+   margin: 50px;
    border: 2px solid black;
 }
 .rectangle1 {
    background-color: blue;
-   padding: 50px;
 }
 .rectangle2 {
    background-color: yellow;
-   padding: 50px;
 }
 .rectangle3 {
    background-color: green;
-   padding: 50px;
 }
 .rectangle4 {
    background-color: pink;
