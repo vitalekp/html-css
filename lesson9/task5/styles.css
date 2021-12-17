@@ -14,8 +14,10 @@
    margin: 0;
 }
 .nav-item {
-   margin-left: 16px;
    display: inline-block;
+}
+.nav-item:nth-child(1) {
+   margin-left: 16px;
 }
 .content {
    background-color: beige;
