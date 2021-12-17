@@ -10,7 +10,7 @@
    line-height: 40px;
 }
 .nav-list {
-   padding-left: 16px;
+   margin-left: 16px;
    color: white;
    margin: 0;
 }
@@ -20,7 +20,6 @@
 .content {
    background-color: beige;
    height: 5000px;
-   position: relative;
 }
 .head {
    height: 200px;
