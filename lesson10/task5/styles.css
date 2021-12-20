@@ -1,0 +1,16 @@
+header {
+   display: flex;
+}
+header h1 {
+   margin: auto;
+}
+.articles-list {
+   display: flex;
+   flex-wrap: wrap;
+}
+.article {
+   flex: 1 0 300px;
+   margin: 8px;
+   padding: 16px;
+   background-color: bisque;
+}
