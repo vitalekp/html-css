@@ -1,3 +1,6 @@
+* {
+   box-sizing: border-box;
+}
 header {
    display: flex;
 }
@@ -9,8 +12,7 @@ header h1 {
    flex-wrap: wrap;
 }
 .article {
-   flex-basis: 300px;
-   flex-grow: 1;
+   flex: 1 0 300px;
    margin: 8px;
    padding: 16px;
    background-color: bisque;
