@@ -3,9 +3,8 @@
 }
 header {
    display: flex;
-}
-header h1 {
-   margin: auto;
+   align-items: center;
+   justify-content: center;
 }
 .articles-list {
    display: flex;
