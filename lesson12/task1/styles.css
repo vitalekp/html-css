@@ -1,4 +1,4 @@
-body {
+section {
    margin: 32px;
    font-size: 18px;
    font-family: Roboto, sans-serif;
@@ -6,7 +6,7 @@ body {
 h1 {
    word-spacing: 20px;
    text-align: center;
-   text-transform: capitalize;
+   text-transform: uppercase;
 }
 p {
    line-height: 28px;
@@ -15,7 +15,7 @@ p {
    font-weight: 900;
    letter-spacing: 3px;
    font-size: 24px;
-   opacity: 80%;
+   opacity: 0.8;
    text-decoration: underline;
 }
 .translate {
