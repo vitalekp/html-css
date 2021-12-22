@@ -3,4 +3,5 @@ div.rectangle {
 }
 p.text::first-letter {
    color: #008000;
+   font-size: 24px;
  }
