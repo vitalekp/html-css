@@ -3,7 +3,7 @@
 }
 .main__video { 
    display: block;
-   min-width: 100%;
+   max-width: 100%;
    width: 500px;
    height: auto;
    margin: 200px auto 0;
