@@ -1,7 +1,7 @@
 .checkbox {
    position: relative;
    display: inline-block;
-   padding: 35px;
+   padding-left: 35px;
    font-size: 24px;
    margin: 16px;
 }
@@ -16,7 +16,7 @@ input[type="checkbox"] {
    height: 25px;
    background-color: #d3d3d3;
    position: absolute;
-   top: 35px;
+   top: 0;
    left: 0;
 }
 .checkbox input:checked + .checkmark {
