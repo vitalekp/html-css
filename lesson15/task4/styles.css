@@ -20,7 +20,7 @@
 
    position: absolute;
    top: calc(50% - 25px);
-   left: calc(50% - 25px);
+   left: calc(50% - 100px);
 }
 .image-button:hover {
    opacity: 1;
