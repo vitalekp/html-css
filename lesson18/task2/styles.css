@@ -1,0 +1,29 @@
+* {
+   box-sizing: border-box;
+}
+.main__button {
+   margin: 64px;
+   width: 200px;
+   height: 50px;
+   background-color: coral;
+   color: white;
+   border: none;
+   border-radius: 4px;
+   text-transform: uppercase;
+   font-family: "Courier New", Courier, monospace;
+   font-weight: 700;
+   cursor: pointer;
+   vertical-align: middle;
+}
+.main__button:hover {
+   color: darkcyan;
+}
+.icon__svg {
+   height: 32px;
+   width: 32px;
+   vertical-align: middle;
+   fill: white;
+}
+.main__button:hover .icon__svg {
+   fill: green;
+}
