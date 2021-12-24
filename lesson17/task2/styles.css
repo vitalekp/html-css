@@ -17,16 +17,14 @@ th {
    border: 1px solid #000;
    border-collapse: collapse;
 }
-thead {
-   background-color: aqua;
-}
-tr {
-   line-height: 40px;
-}
 th,
 td {
-   padding: 0 4px 0 0;
+   padding: 4px;
    text-align: right;
+   height: 40px;
+}
+thead {
+   background-color: aqua;
 }
 
 tbody tr:nth-child(odd) {
