@@ -7,20 +7,23 @@ body {
 }
 .container {
    display: flex;
+   flex-direction: column;
    margin: auto;
 }
 .square {
    width: 100px;
    height: 100px;
    margin: 8px;
-   background-color: #8a2be2;
+   background-color: #ff7f50;
 }
 
-@media screen and (max-width: 599px) {
-   .square {
-      background-color: #ff7f50;
+@media  screen and (min-width:600px){
+   .square{
+       background-color:#8a2be2 ;
    }
-   .container {
-      flex-direction: column;
+}
+@media  screen and (orientation:landscape){
+   .container{
+       flex-direction: row;
    }
 }
