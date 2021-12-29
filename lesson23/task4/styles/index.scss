@@ -1,0 +1,12 @@
+@import 'layout.scss';
+
+* {
+   box-sizing: border-box;
+}
+body {
+   display: flex;
+   flex-direction: column;
+   @include for-large {
+      flex-direction: row;
+   }
+}

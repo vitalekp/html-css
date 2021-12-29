@@ -1,0 +1,45 @@
+$sm: 600px;
+$md: 900px; 
+
+@mixin for-medium {
+   @media screen and (min-width: $sm) {
+      @content;
+   }
+}
+@mixin for-large {
+   @media screen and (min-width: $md) {
+      @content;
+   }
+}
+
+.main {
+   &__section {
+      flex: 2;
+      @include for-medium{
+         display: flex;
+         flex-direction: row; 
+      }
+   }
+}
+.nav, .products, .news {
+   min-height: 200px;
+   display: flex;
+   flex: 1;
+}
+.nav {
+   background-color: #ff7f50;
+}
+.products {
+   background-color: #006400;
+}
+.news {
+   background-color: #0ff;
+}
+span {
+   font-family: Verdana;
+   margin: auto;
+   padding: 8px;
+   border-radius: 4px;
+   background-color: #faebd7;
+   text-transform: lowercase;
+}
