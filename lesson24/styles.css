@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box; }
+
+html {
+  font-family: 'Work Sans', sans-serif; }
+
+.page {
+  width: 1400px;
+  margin: auto; }
+
+.top-section {
+  padding-top: 39px;
+  background-color: #F3C6BD; }
+
+.header {
+  width: 1140px;
+  height: 62px;
+  margin: auto;
+  display: flex; }
+  .header__button {
+    width: 160px;
+    height: 48px;
+    border-radius: 2px;
+    background-color: #3040C4;
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+    outline: none;
+    border: none; }
+
+.logo {
+  display: flex; }
+  .logo__image {
+    height: 60px;
+    width: 60px;
+    margin-right: 15px; }
+  .logo__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  .logo__name {
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 700; }
+  .logo__description {
+    font-size: 18px;
+    line-height: 25px;
+    color: #2B292D;
+    opacity: 0.6; }
+
+.navigation {
+  margin-left: auto;
+  margin-top: 7px;
+  margin-right: 75px; }
+  .navigation__item {
+    color: #2B292D;
+    text-decoration: none;
+    line-height: 25px;
+    font-size: 18px;
+    margin-right: 50px; }
+    .navigation__item:last-child {
+      margin-right: 0; }
+    .navigation__item_selected {
+      font-weight: 700; }
+  .navigation__arrow {
+    margin-bottom: 2px;
+    margin-left: 11px;
+    display: inline-block;
+    height: 5px;
+    width: 8px;
+    background-image: url(../lesson24/image/Arrow.png); }
+
+/*# sourceMappingURL=styles.css.map */
