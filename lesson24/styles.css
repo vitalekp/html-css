@@ -6,7 +6,10 @@ html {
 
 .page {
   width: 1400px;
-  margin: auto; }
+  margin: auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column; }
 
 .top-section {
   padding-top: 39px;
@@ -69,5 +72,84 @@ html {
     height: 5px;
     width: 8px;
     background-image: url(../lesson24/image/Arrow.png); }
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  margin-top: auto; }
+  .footer__line {
+    border-top: 1px solid #2B292D;
+    width: 100%;
+    margin-top: 40px;
+    opacity: 0.1; }
+
+.footer-navigation {
+  width: 1140px;
+  margin: 0 auto;
+  height: 338px;
+  display: flex; }
+
+.about-company {
+  margin-top: 44px; }
+
+.footer__description {
+  margin-top: 26px;
+  line-height: 26px;
+  font-size: 18px;
+  width: 360px;
+  opacity: 0.6;
+  color: #2B292D; }
+
+.downloads {
+  margin-top: 25px; }
+  .downloads__item {
+    margin-right: 10px; }
+
+.additional-navigation {
+  display: flex;
+  margin-top: 60px;
+  margin-left: auto; }
+  .additional-navigation__column:first-child {
+    margin-right: 29px; }
+
+.nav-links {
+  width: 265px; }
+  .nav-links__title {
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0;
+    line-height: 28px;
+    color: #2B292D;
+    margin-bottom: 18px; }
+  .nav-links__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 30px;
+    color: #2B292D;
+    opacity: 0.6; }
+
+.footer-links {
+  display: flex;
+  align-items: center;
+  width: 1140px;
+  height: 50px;
+  margin: 0 auto; }
+
+.terms {
+  line-height: 50px;
+  font-size: 14px; }
+  .terms__items {
+    display: inline-block;
+    text-decoration: none;
+    opacity: 0.6;
+    color: #2B292D;
+    margin-right: 22px; }
+
+.social-links {
+  margin-left: auto; }
+  .social-links__items {
+    margin-left: 20px; }
 
 /*# sourceMappingURL=styles.css.map */
