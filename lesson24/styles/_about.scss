@@ -1,0 +1,26 @@
+.about {
+    width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.article {
+    width: 555px;
+    padding-top: 77px;
+    padding-bottom: 76px;
+
+    &__title {
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 32px;
+        margin: 0;
+    }
+
+    &__text {
+        font-size: 22px;
+        line-height: 32px;
+        margin: 0;
+        margin-top: 6px;
+    }
+}

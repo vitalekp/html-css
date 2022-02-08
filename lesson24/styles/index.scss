@@ -1,195 +1,26 @@
+@import "_common.scss";
+@import "_header.scss";
+@import "_headline.scss";
+@import "_about.scss";
+@import "_customers.scss";
+@import "_features.scss";
+@import "_footer.scss";
+
 * {
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
 html {
-	font-family: 'Work Sans', sans-serif;
+    font-family: "Work Sans", sans-serif;
+    color: #2b292d;
 }
 .page {
-	width: 1400px;
-	margin: auto;
-	min-height: 100vh;	
-	display: flex;
-	flex-direction: column;
+    width: 100%;
+    overflow-x: hidden;
+    @media screen and(min-width: 400px) {
+        width: 1400px;
+        margin: auto;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
 }
-.top-section {
-	padding-top: 39px;
-	background-color: #F3C6BD;
-}
-.header {
-	width: 1140px;
-	height: 62px;
-	margin: auto;
-	display: flex;
-		&__button {
-			width: 160px;
-			height: 48px;
-			border-radius: 2px;
-			background-color: #3040C4;
-			font-weight: 700;
-			font-size: 18px;
-			color: #fff;
-			outline: none;
-			border: none;
-		}
-}
-.logo {
-	display: flex;
-		&__image {
-			height: 60px;
-			width: 60px;
-			margin-right: 15px;
-		}
-
-		&__text {
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-		}
-
-		&__name {
-			font-size: 20px;
-			line-height: 25px;
-			font-weight: 700;
-		}
-
-		&__description {
-			font-size: 18px;
-			line-height: 25px;
-			color: #2B292D;
-			opacity: 0.6;
-		}
-}
-.navigation {
-	margin-left: auto;
-	margin-top: 7px;
-	margin-right: 75px;
-		&__item {
-			color: #2B292D;
-			text-decoration: none;
-			line-height: 25px;
-			font-size: 18px;
-			margin-right: 50px;
-			&:last-child {
-				margin-right: 0;
-			}
-			&_selected {
-				font-weight: 700;
-			}
-		}
-
-		&__arrow {
-			margin-bottom: 2px;
-			margin-left: 11px;
-			display: inline-block;
-			height: 5px;
-			width: 8px;
-			background-image: url(../lesson24/image/Arrow.png);
-		}
-}
-
-
-// FOOTER
-.footer {
-	display: flex;
-	flex-direction: column;
-	margin-top: auto;
-
-	&__line {
-		border-top: 1px solid #2B292D;
-		width: 100%;
-		margin-top: 40px;
-		opacity: 0.1;
-	}
-}
-.footer-navigation {
-	width: 1140px;
-	margin: 0 auto;
-	height: 338px;
-	display: flex;
-}
-
-.about-company {
-	margin-top: 44px;
-}
-
-.footer {
-
-		&__description {
-			margin-top: 26px;
-			line-height: 26px;
-			font-size: 18px;
-			width: 360px;
-			opacity: 0.6;
-			color: #2B292D;
-		}
-}
-.downloads {
-	margin-top: 25px;
-
-	&__item {
-		margin-right: 10px;
-	}
-}
-
-.additional-navigation {
-	display: flex;
-	margin-top: 60px;
-	margin-left: auto;
-
-	&__column:first-child {
-		margin-right: 29px;
-	}
-}
-.nav-links {
-	width: 265px;
-	&__title {
-		font-size: 22px;
-		font-weight: 700;
-		margin: 0;
-		line-height: 28px;
-		color: #2B292D;
-		margin-bottom: 18px;
-	}
-
-	&__list {
-		list-style: none;
-		margin: 0;
-		padding: 0;
-		font-size: 18px;
-		line-height: 30px;
-		color: #2B292D;
-		opacity: 0.6;
-	}
-
-	&__item {
-	}
-}
-
-
-.footer-links {
-	display: flex;
-	align-items: center;
-	width: 1140px;
-	height: 50px;
-	margin: 0 auto;
-}
-.terms {
-	line-height: 50px;
-	font-size: 14px;
-
-		&__items {
-			display: inline-block;
-			text-decoration: none;
-			opacity: 0.6;
-			color: #2B292D;
-			margin-right: 22px;
-		}
-}
-.social-links {
-	margin-left: auto;
-
-	&__items {
-		margin-left: 20px;
-	}
-}
-
