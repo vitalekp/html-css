@@ -1,7 +1,7 @@
 .customers {
     display: flex;
     flex-direction: column;
-    @media screen and(min-width: 400px) {
+    @include for-large-up {
         width: 1140px;
         margin: auto;
         display: flex;
@@ -13,7 +13,7 @@
 
     &__row {
         display: flex;
-        @media screen and(min-width: 400px) {
+        @include for-large-up {
             flex: 1;
             justify-content: space-around;
         }
@@ -28,7 +28,7 @@
         width: 107px;
         border-bottom: 1px solid #e3e3e3;
         border-right: 1px solid #e3e3e3;
-        @media screen and(min-width: 400px) {
+        @include for-large-up {
             border: none;
         }
         &:last-child {

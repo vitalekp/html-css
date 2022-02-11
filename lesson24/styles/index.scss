@@ -1,3 +1,5 @@
+@import "_variables.scss";
+@import "_breakpoints.scss";
 @import "_common.scss";
 @import "_header.scss";
 @import "_headline.scss";
@@ -5,6 +7,8 @@
 @import "_customers.scss";
 @import "_tips.scss";
 @import "_features.scss";
+@import "_audiences.scss";
+@import "_order.scss";
 @import "_footer.scss";
 
 * {
@@ -12,13 +16,23 @@
 }
 html {
     font-family: "Work Sans", sans-serif;
-    color: #2b292d;
+    color: $color-dark;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
 }
 .page {
     width: 100%;
-    overflow-x: hidden;
-    @media screen and(min-width: 400px) {
-        width: 1400px;
+
+    @include for-large-up {
+        max-width: 1400px;
         margin: auto;
         min-height: 100vh;
         display: flex;

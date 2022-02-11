@@ -5,7 +5,19 @@
     background-color: #3040c4;
     font-weight: 700;
     font-size: 18px;
-    color: #fff;
+    color: $color-white;
+    outline: none;
+    border: none;
+}
+
+.action-button-white {
+    width: 158px;
+    height: 48px;
+    border-radius: 2px;
+    background-color: $color-white;
+    font-weight: 700;
+    font-size: 18px;
+    color: #000;
     outline: none;
     border: none;
 }
@@ -16,13 +28,13 @@
 }
 
 .hide_desktop {
-    @media screen and(min-width: 400px) {
+    @include for-large-up {
         display: none;
     }
 }
 
 .hide_mobile {
-    @media screen and(max-width: 399px) {
+    @include for-large-down {
         display: none;
     }
 }

@@ -1,6 +1,6 @@
 .headline {
     width: 100%;
-    @media screen and(min-width: 400px) {
+    @include for-large-up {
         width: 1140px;
         margin: auto;
         margin-top: 84px;
@@ -11,7 +11,7 @@
 
     &__content {
         margin: 35px 15px 33px 15px;
-        @media screen and(min-width: 400px) {
+        @include for-large-up {
             position: absolute;
             margin: 0;
             z-index: 1;
@@ -24,7 +24,7 @@
         line-height: 50px;
         letter-spacing: 0.3125px;
         margin: 0;
-        @media screen and(min-width: 400px) {
+        @include for-large-up {
             width: 754px;
             height: 165px;
             font-size: 80px;
@@ -39,7 +39,7 @@
         margin-bottom: 0;
         font-size: 24px;
         line-height: 34px;
-        @media screen and(min-width: 400px) {
+        @include for-large-up {
             margin-top: 34px;
             height: 102px;
             width: 456px;
@@ -57,7 +57,7 @@
         border-radius: 2px;
         border: none;
         margin-top: 15px;
-        @media screen and(min-width: 400px) {
+        @include for-large-up {
             width: 158px;
             margin-left: 10px;
             margin-top: 0;
@@ -67,7 +67,7 @@
     &__banner {
         width: 100%;
         margin-bottom: 36px;
-        @media screen and(min-width: 400px) {
+        @include for-large-up {
             position: relative;
             top: 0;
             right: -105px;
@@ -79,13 +79,13 @@
 
     &__actions {
         margin-top: 30px;
-        @media screen and(min-width: 400px) {
+        @include for-large-up {
             margin-top: 58px;
             display: flex;
         }
     }
     &__actions-btn {
-        @media screen and(max-width: 399px) {
+        @include for-large-down {
             width: 100%;
         }
     }

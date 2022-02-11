@@ -9,12 +9,12 @@
         width: 100%;
         margin-top: 40px;
         opacity: 0.1;
-        @media screen and(min-width: 400px) {
+        @include for-large-up {
             margin-top: 0;
         }
     }
     & .logo {
-        @media screen and(max-width: 399px) {
+        @include for-large-down {
             display: none;
         }
     }
@@ -26,7 +26,7 @@
         width: 360px;
         opacity: 0.6;
         color: #2b292d;
-        @media screen and(min-width: 400px) {
+        @include for-large-up {
             display: block;
         }
     }
@@ -35,7 +35,7 @@
     margin: 0;
     display: flex;
     flex-direction: column;
-    @media screen and(min-width: 400px) {
+    @include for-large-up {
         width: 1140px;
         margin: 0 auto;
         height: 338px;
@@ -52,7 +52,7 @@
     margin: 25px 15px 0 15px;
     display: flex;
     justify-content: center;
-    @media screen and(min-width: 400px) {
+    @include for-large-up {
         justify-content: left;
         margin: 25px 0 0 0;
     }
@@ -65,7 +65,7 @@
     display: flex;
     flex-direction: column;
     margin: 0 15px 0 15px;
-    @media screen and(min-width: 400px) {
+    @include for-large-up {
         flex-direction: row;
         margin-top: 60px;
         margin-left: auto;
@@ -73,7 +73,7 @@
 
     &__column {
         margin-top: 30px;
-        @media screen and(min-width: 400px) {
+        @include for-large-up {
             margin-top: 0;
             margin-right: 29px;
         }
@@ -103,8 +103,8 @@
         opacity: 0.6;
     }
 
-    &__item {
-    }
+    // &__item {
+    // }
 }
 
 .footer-links {
@@ -112,7 +112,7 @@
 
     margin-left: 15px;
     flex-direction: column;
-    @media screen and(min-width: 400px) {
+    @include for-large-up {
         flex-direction: row;
         width: 1140px;
         margin: 0 auto;
@@ -124,7 +124,7 @@
     line-height: 22px;
     font-size: 14px;
     margin-top: 30px;
-    @media screen and(min-width: 400px) {
+    @include for-large-up {
         line-height: 50px;
         margin-top: 0;
     }
@@ -139,8 +139,8 @@
 .social-links {
     margin-top: 30px;
     margin-bottom: 23px;
-    // margin-left: 15px;
-    @media screen and(min-width: 400px) {
+
+    @include for-large-up {
         margin-left: auto;
         margin-bottom: 0;
     }
@@ -157,7 +157,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    @media screen and(min-width: 400px) {
+    @include for-large-up {
         display: none;
     }
     &__image {
@@ -175,6 +175,6 @@
         font-size: 18px;
         line-height: 25px;
         text-align: center;
-        color: rgba(41, 41, 45, 0.6);
+        color: $text-color-light-grey;
     }
 }

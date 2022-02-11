@@ -1,7 +1,7 @@
 .top-section {
     background-color: #f3c6bd;
 
-    @media screen and(min-width: 400px) {
+    @include for-large-up {
         padding-top: 39px;
         background-color: #f3c6bd;
     }
@@ -13,7 +13,7 @@
     align-items: center;
     background-color: #fff;
     padding-left: 15px;
-    @media screen and(min-width: 400px) {
+    @include for-large-up {
         width: 1140px;
         height: 62px;
         margin: auto;
@@ -22,7 +22,7 @@
     }
     &__button {
         display: none;
-        @media screen and(min-width: 400px) {
+        @include for-large-up {
             display: block;
         }
     }
@@ -33,7 +33,7 @@
         border: none;
         background: transparent;
         border-left: 1px solid #00000026;
-        @media screen and(min-width: 400px) {
+        @include for-large-up {
             display: none;
         }
     }
@@ -51,7 +51,7 @@
         height: 48px;
         width: 48px;
         margin-right: 13px;
-        @media screen and(min-width: 400px) {
+        @include for-large-up {
             height: 60px;
             width: 60px;
             margin-right: 15px;
@@ -72,7 +72,7 @@
 
     &__description {
         display: none;
-        @media screen and(min-width: 400px) {
+        @include for-large-up {
             display: block;
             font-size: 18px;
             line-height: 25px;
@@ -83,7 +83,7 @@
 }
 .navigation {
     display: none;
-    @media screen and(min-width: 400px) {
+    @include for-large-up {
         display: block;
         margin-left: auto;
         margin-top: 7px;
